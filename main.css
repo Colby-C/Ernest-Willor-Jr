@@ -286,17 +286,17 @@ textarea {
     }
 
     .image-container {
-        height: 125vh;
+        height: 60vh;
         width: 100%;
         overflow: hidden;
         position: relative;
-        top: -60%;
+        top: 0;
         margin-bottom: 0;
     }
 
     .image-container::before {
-        height: 125vh;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85));
+        height: 60vh;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
     }
 
     .athlete-photo {
@@ -305,7 +305,7 @@ textarea {
         position: absolute;
         object-fit: cover;
         object-position: top;
-        top: 65%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%) scale(3);
     }
