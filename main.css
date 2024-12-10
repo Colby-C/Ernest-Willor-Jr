@@ -286,7 +286,7 @@ textarea {
     }
 
     .image-container {
-        height: 60vh;
+        height: 80vh;
         width: 100%;
         overflow: hidden;
         position: relative;
@@ -295,7 +295,7 @@ textarea {
     }
 
     .image-container::before {
-        height: 60vh;
+        height: 80vh;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
     }
 
@@ -305,9 +305,9 @@ textarea {
         position: absolute;
         object-fit: cover;
         object-position: top;
-        top: 40%;
+        top: 50%;
         left: 50%;
-        transform: translate(-50%) scale(3);
+        transform: translate(-50%) scale(5);
     }
 
     .shop-section,
